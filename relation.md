@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-07 02:19:26 CST)
+(The last generation time: 2022-02-08 17:29:23 CST)
 
 ### Packages
 
@@ -25,7 +25,7 @@
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                               | 1.0.4                                     |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/visual-studio-code-bin           | 1.63.2                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
+ app-editors/visual-studio-code-bin           | 1.64.0                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -106,7 +106,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-pda/ipadcharge                           | 9999                                      |            | https://github.com/mkorenkov/ipad_charge                                                | Enables USB charging for Apple devices.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-shells/zsh-theme-powerlevel10k           | 1.15.0-r1                                 |            | https://github.com/romkatv/powerlevel10k                                                | Theme for Zsh that emphasizes speed, flexibility and out-of-the-box experience
+ app-shells/zsh-theme-powerlevel10k           | 1.16.1                                    |            | https://github.com/romkatv/powerlevel10k                                                | Theme for Zsh that emphasizes speed, flexibility and out-of-the-box experience
    app-shells/gitstatus                       | 1.5.3-r1                                  |  D, RD     | https://github.com/romkatv/gitstatus                                                    | Git status for Bash and Zsh prompt
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-text/groff-utf8                          | 0-r1                                      |            | http://www.haible.de/bruno/packages-groff-utf8.html                                     | GNU groff wrapper allowing UTF-8 input
@@ -358,7 +358,9 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/networkmanager-l2tp                 | 9999                                      |            | http://www.gnome.org/projects/NetworkManager/                                           | NetworkManager L2TP plugin
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/nomachine-enterprise-client         | 7.7.4.1                                   |            | https://www.nomachine.com                                                               | NoMachine Enterprise Client
+ net-misc/nomachine-enterprise-client         | 7.6.2.4                                   |            | https://www.nomachine.com                                                               | NoMachine Enterprise Client
+                                              | 7.7.4.1                                   |            |                                                                                         |
+                                              | 7.8.2.1                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/pcmanx-gtk2                         | 1.3                                       |            | https://github.com/pcman-bbs/pcmanx                                                     | PCMan is a gtk+ based free BBS client
                                               | 9999                                      |            |                                                                                         |
@@ -460,7 +462,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-process/btop                             | 1.2.0                                     |            | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                          | 5.15.16                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
+ virtual/dist-kernel                          | 5.15.19                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r8                                      |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.16_p1                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
