@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-10 16:05:35 CST)
+(The last generation time: 2022-02-13 01:55:07 CST)
 
 ### Packages
 
@@ -25,7 +25,7 @@
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                               | 1.0.4                                     |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/visual-studio-code-bin           | 1.64.1                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
+ app-editors/visual-studio-code-bin           | 1.64.2                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -398,9 +398,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                         | 0.9.4                                     |            | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/v2rayA                             | 1.5.5                                     |            | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
-                                              | 1.5.6.2                                   |            |                                                                                         |
-                                              | 9999                                      |            |                                                                                         |
+ net-proxy/v2rayA                             | 1.5.6.2                                   |            | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
    net-proxy/Xray                             | 1.4.3                                     | RD         | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
                                               | 1.4.4                                     |            |                                                                                         |
                                               | 1.4.5                                     |            |                                                                                         |
@@ -464,7 +462,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.19                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/linux-sources                        | 3-r8                                      |            |                                                                                         | Virtual for Linux kernel sources
+ virtual/linux-sources                        | 3-r9                                      |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.16_p1                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                               | 5.16_p2                                   |            |                                                                                         |
                                               | 5.16_p3                                   |            |                                                                                         |
