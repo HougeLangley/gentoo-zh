@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-13 22:46:39 CST)
+(The last generation time: 2022-02-13 22:57:21 CST)
 
 ### Packages
 
@@ -237,6 +237,8 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/jetbrains-toolbox                   | 1.22.10774                                |            | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ dev-util/pahole                              | 1.23                                      |            | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/rust-analyzer                       | 20210712                                  |            | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |            | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
@@ -462,24 +464,8 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.19                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/linux-sources                        | 3-r9                                      |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.16_p1                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.16_p2                                   |            |                                                                                         |
-                                              | 5.16_p3                                   |            |                                                                                         |
-                                              | 5.16_p4                                   |            |                                                                                         |
-                                              | 5.16_p5                                   |            |                                                                                         |
-                                              | 5.16_p6                                   |            |                                                                                         |
-     dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
-   sys-kernel/starfive-sources                | 5.17.0_p1                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
-   sys-kernel/xanmod-hybrid                   | 5.15.15                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, patchset for main kernel tree
-                                              | 5.15.16                                   |            |                                                                                         |
-                                              | 5.15.17                                   |            |                                                                                         |
-                                              | 5.15.19                                   |            |                                                                                         |
-                                              | 5.15.21                                   |            |                                                                                         |
-                                              | 5.15.22                                   |            |                                                                                         |
+ virtual/linux-sources                        | 3-r7                                      |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/xanmod-lts                      | 5.15.19                                   | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-   sys-kernel/xanmod-rt                       | 5.15.12                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
-                                              | 5.15.14                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                        | 1.13                                      |            | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
