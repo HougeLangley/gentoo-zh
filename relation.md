@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-17 21:34:46 CST)
+(The last generation time: 2022-02-21 19:22:01 CST)
 
 ### Packages
 
@@ -24,8 +24,6 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                               | 1.0.4                                     |            |                                                                                         |
-----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/visual-studio-code-bin           | 1.64.2                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -107,7 +105,7 @@
  app-pda/ipadcharge                           | 9999                                      |            | https://github.com/mkorenkov/ipad_charge                                                | Enables USB charging for Apple devices.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-shells/zsh-theme-powerlevel10k           | 1.16.1                                    |            | https://github.com/romkatv/powerlevel10k                                                | Theme for Zsh that emphasizes speed, flexibility and out-of-the-box experience
-   app-shells/gitstatus                       | 1.5.3-r1                                  |  D, RD     | https://github.com/romkatv/gitstatus                                                    | Git status for Bash and Zsh prompt
+   app-shells/gitstatus                       | 1.5.4                                     |  D, RD     | https://github.com/romkatv/gitstatus                                                    | Git status for Bash and Zsh prompt
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-text/groff-utf8                          | 0-r1                                      |            | http://www.haible.de/bruno/packages-groff-utf8.html                                     | GNU groff wrapper allowing UTF-8 input
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -216,6 +214,9 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/labelme                           | 4.6.0                                     |            | https://github.com/wkentaro/labelme                                                     | Image Polygonal Annotation with Python
    dev-python/imgviz                          | 1.3.0                                     |  D, RD     | https://github.com/wkentaro/imgviz                                                      | mage Visualization Tools
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ dev-python/nvchecker                         | 2.7                                       |            | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
+   dev-python/structlog                       | 21.5.0                                    | RD         | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/python-telegram-bot               | 13.11                                     |            | https://github.com/python-telegram-bot/python-telegram-bot                              | Python wrapper of telegram bots API
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -382,6 +383,7 @@
  net-p2p/qbittorrent-enhanced                 | 4.3.8.10                                  |            | https://github.com/c0re100/qBittorrent-Enhanced-Edition                                 | qBittorrent Enhanced, based on qBittorrent
                                               | 4.3.9.10                                  |            |                                                                                         |
                                               | 4.4.0.10                                  |            |                                                                                         |
+                                              | 4.4.1.10                                  |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-print/epson-inkjet-printer_201207w       | 1.0.0                                     |            | http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX                              | Epson printer driver (L110, L210, L300, L350, L355, L550, L555)
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -462,7 +464,8 @@
  virtual/dist-kernel                          | 5.15.19                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r9                                      |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.16_p7                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+   sys-kernel/liquorix-sources                | 5.16.10                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.16.9                                    |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p1                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-hybrid                   | 5.15.24                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
