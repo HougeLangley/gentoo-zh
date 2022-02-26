@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-25 17:08:59 CST)
+(The last generation time: 2022-02-26 18:53:54 CST)
 
 ### Packages
 
@@ -20,7 +20,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx5-pinyin-zhwiki               | 20220101                                  |            | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/marktext-bin                     | 0.16.3                                    |            | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
+ app-editors/marktext-bin                     | 0.17.0                                    |            | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                               | 1.1.5                                     |            |                                                                                         |
@@ -187,7 +187,7 @@
  dev-cpp/cppcoro                              | 210605                                    |            | https://github.com/Garcia6l20/cppcoro                                                   | A library of C++ coroutine abstractions for the coroutines TS
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/date                                 | 3.0.1                                     |            | https://github.com/HowardHinnant/date                                                   | A date and time library based on the C++11/14/17 <chrono> header
-                                              | 3.0.1_p220127                             |            |                                                                                         |
+                                              | 3.0.1_p220217                             |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/nameof                               | 0.10.1                                    |            | https://github.com/Neargye/nameof                                                       | Nameof operator for modern C++
                                               | 0.10.1_p220125                            |            |                                                                                         |
@@ -329,8 +329,8 @@
    app-emulation/deepin-wine-helper           | 5.1.27-r1                                 | RD         | https://www.deepin.org                                                                  | Deepin Wine Helper
      app-emulation/deepin-wine-plugin         | 5.1.13-r1                                 | RD         | https://www.deepin.org                                                                  | Deepin Wine plugin
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-im/dingtalk                              | 1.2.0.147                                 |            | https://gov.dingtalk.com                                                                | dingtalk
-                                              | 1.3.0.12502                               |            |                                                                                         |
+ net-im/dingtalk                              | 1.3.0.12502                               |            | https://gov.dingtalk.com                                                                | dingtalk
+                                              | 1.3.0.20214                               |            |                                                                                         |
    dev-libs/libthai                           | 0.1.28                                    |  D, RD     | https://github.com/tlwg/libthai                                                         | A a set of Thai language support routines
      dev-libs/libdatrie                       | 0.2.13                                    |  D, RD     | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -405,6 +405,7 @@
                                               | 1.5.3                                     |            |                                                                                         |
    net-proxy/v2ray                            | 4.40.1                                    | RD         | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
                                               | 4.43.0                                    |            |                                                                                         |
+                                              | 4.44.0                                    |            |                                                                                         |
      dev-libs/v2ray-domain-list-community     | 4.39.2_p20210621183458                    | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
                                               | 9999                                      |            |                                                                                         |
      dev-libs/v2ray-domain-list-community-bin | 4.39.2_p20210621183458                    | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
@@ -434,7 +435,7 @@
    sys-libs/libzypp                           | 17.29.1                                   | RD         | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
                                               | 9999                                      |            |                                                                                         |
      dev-libs/boost                           | 1.78.0-r2                                 |  D, BD, RD | https://www.boost.org/                                                                  | Boost Libraries for C++
-       dev-libs/libbacktrace                  | 220119                                    |  D, RD     | https://github.com/ianlancetaylor/libbacktrace                                          | A C library for producing symbolic backtraces
+       dev-libs/libbacktrace                  | 220218                                    |  D, RD     | https://github.com/ianlancetaylor/libbacktrace                                          | A C library for producing symbolic backtraces
      sys-libs/libsolv                         | 0.7.20                                    | RD         | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
                                               | 9999                                      |            |                                                                                         |
        app-arch/zchunk                        | 1.1.16                                    | RD         | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
@@ -469,7 +470,7 @@
                                               | 5.16.11                                   |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p4                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
-   sys-kernel/xanmod-hybrid                   | 5.15.24                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
+   sys-kernel/xanmod-hybrid                   | 5.15.25                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
    sys-kernel/xanmod-kernel                   | 5.10.101                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 5.15.24                                   |            |                                                                                         |
                                               | 5.16.11                                   |            |                                                                                         |
