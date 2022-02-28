@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-26 19:03:06 CST)
+(The last generation time: 2022-02-28 21:05:56 CST)
 
 ### Packages
 
@@ -214,7 +214,7 @@
  dev-python/labelme                           | 4.6.0                                     |            | https://github.com/wkentaro/labelme                                                     | Image Polygonal Annotation with Python
    dev-python/imgviz                          | 1.3.0                                     |  D, RD     | https://github.com/wkentaro/imgviz                                                      | mage Visualization Tools
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/nvchecker                         | 2.7                                       |            | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
+ dev-python/nvchecker                         | 2.7-r1                                    |            | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
    dev-python/structlog                       | 21.5.0                                    | RD         | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/python-telegram-bot               | 13.11                                     |            | https://github.com/python-telegram-bot/python-telegram-bot                              | Python wrapper of telegram bots API
@@ -291,14 +291,11 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-plugins/gimp-gap                       | 2.8.0                                     |            | http://www.gimp.org/                                                                    | Gimp Animation Package
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- media-plugins/osdlyrics                      | 0.5.10-r1                                 |            | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
-                                              | 9999                                      |            |                                                                                         |
-----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/feeluown                         | 3.8.3                                     |            | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
    dev-python/fuo-kuwo                        | 0.1.5                                     |  D         | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
    dev-python/fuo-local                       | 0.3                                       |  D         | https://github.com/feeluown/feeluown-local                                              | local music support for feeluown
    dev-python/fuo-netease                     | 0.8                                       |  D         | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
-   dev-python/fuo-qqmusic                     | 0.3.3                                     |  D         | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
+   dev-python/fuo-qqmusic                     | 0.4                                       |  D         | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD     | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.22.0                                    |  D, RD     | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/tomlkit                         | 0.8.0                                     |  D, RD     | https://github.com/sdispater/tomlkit                                                    | Style-preserving TOML library for Python
@@ -306,6 +303,10 @@
  media-sound/linnya                           | 2.2.0                                     |            | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/netease-cloud-music              | 1.2.1                                     |            | https://music.163.com                                                                   | Netease Cloud Music, converted from .deb package
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ media-sound/netease-cloud-music-gtk          | 1.2.2                                     |            | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK3 for Linux
+   media-plugins/osdlyrics                    | 0.5.10-r1                                 | RD         | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
+                                              | 9999                                      |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                         | 0.6.10                                    |            | https://github.com/tramhao/termusic                                                     | Music Player TUI written in Rust
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -463,9 +464,9 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-process/btop                             | 1.2.0                                     |            | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                          | 5.10.101                                  |            |                                                                                         | Virtual to depend on any Distribution Kernel
-                                              | 5.15.24                                   |            |                                                                                         |
-                                              | 5.16.10                                   |            |                                                                                         |
+ virtual/dist-kernel                          | 5.10.102                                  |            |                                                                                         | Virtual to depend on any Distribution Kernel
+                                              | 5.15.25                                   |            |                                                                                         |
+                                              | 5.16.11                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r10                                     |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.16.10                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
@@ -473,8 +474,8 @@
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p4                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-hybrid                   | 5.15.25                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
-   sys-kernel/xanmod-kernel                   | 5.10.101                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                              | 5.15.24                                   |            |                                                                                         |
+   sys-kernel/xanmod-kernel                   | 5.10.102                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                              | 5.15.25                                   |            |                                                                                         |
                                               | 5.16.11                                   |            |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
                                               | 5.15.14                                   |            |                                                                                         |
