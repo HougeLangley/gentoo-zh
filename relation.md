@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-08-11 19:07:02 CST)
+(The last generation time: 2022-08-12 19:22:04 CST)
 
 ### Packages
 
@@ -115,6 +115,9 @@
    app-shells/gitstatus                       | 1.5.4                                     |  D, RD | https://github.com/romkatv/gitstatus                                                    | Git status for Bash and Zsh prompt
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-text/groff-utf8                          | 0-r1                                      |        | http://www.haible.de/bruno/packages-groff-utf8.html                                     | GNU groff wrapper allowing UTF-8 input
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-text/wiznote                             | 2.8.5                                     |        | http://www.wiz.cn/index.html                                                            | cross-platform cloud based note-taking client
+                                              | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-text/ydcv-rs                             | 0.4.7                                     |        | https://github.com/farseerfc/ydcv-rs                                                    | A rust version of YouDao Console Version
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -268,7 +271,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                         | 0.6.12                                    |        | https://github.com/tramhao/termusic                                                     | Music Player TUI written in Rust
                                               | 0.6.16                                    |        |                                                                                         |
-                                              | 0.7.2                                     |        |                                                                                         |
+                                              | 0.7.1                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/yesplaymusic-bin                 | 0.4.4-r1                                  |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
                                               | 0.4.5                                     |        |                                                                                         |
@@ -388,13 +391,16 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/yaourt                              | 1.2.2                                     |        | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-apps/zypper                              | 1.14.55                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
+ sys-apps/zypper                              | 1.14.51                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
+                                              | 1.14.52                                   |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
-   sys-libs/libzypp                           | 17.31.0                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
+   sys-libs/libzypp                           | 17.29.1                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
+                                              | 17.29.5                                   |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
-     sys-libs/libsolv                         | 0.7.22                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
+     sys-libs/libsolv                         | 0.7.21                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
                                               | 9999                                      |        |                                                                                         |
-       app-arch/zchunk                        | 1.2.2                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
+       app-arch/zchunk                        | 1.1.16                                    | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
+                                              | 1.2.0                                     |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                  | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
