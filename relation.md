@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-09-27 00:20:54 CST)
+(The last generation time: 2022-09-27 11:30:26 CST)
 
 ### Packages
 
@@ -347,7 +347,7 @@
  net-proxy/clash-for-windows-bin              | 0.20.3                                    |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
                                               | 0.20.4                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge-bin                    | 20220926                                  |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
+ net-proxy/clash-verge-bin                    | 1.1.0                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
    net-proxy/clash                            | 1.11.4                                    | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
                                               | 1.11.8                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
