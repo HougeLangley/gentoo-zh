@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-12-29 16:49:37 CST)
+(The last generation time: 2022-12-29 19:44:56 CST)
 
 ### Packages
 
@@ -182,6 +182,8 @@
  dev-util/lldb-mi                             | 9999                                      |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/marksman-bin                        | 2022.11.25                                |        | https://github.com/artempyanykh/marksman                                                | A language server for Markdown
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-util/mongodb-compass-bin                 | 1.34.2                                    |        | https://mongodb.com/compass                                                             | The GUI for MongoDB
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -417,11 +419,11 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/yaourt                              | 1.2.2                                     |        | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-apps/zypper                              | 1.14.58                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
+ sys-apps/zypper                              | 1.14.59                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
                                               | 9999                                      |        |                                                                                         |
-   sys-libs/libzypp                           | 17.31.5                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
+   sys-libs/libzypp                           | 17.31.7                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
                                               | 9999                                      |        |                                                                                         |
-     sys-libs/libsolv                         | 0.7.22                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
+     sys-libs/libsolv                         | 0.7.23                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
                                               | 9999                                      |        |                                                                                         |
        app-arch/zchunk                        | 1.2.3                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                               | 9999                                      |        |                                                                                         |
