@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-01-04 00:07:12 CST)
+(The last generation time: 2023-01-06 20:29:59 CST)
 
 ### Packages
 
@@ -326,7 +326,7 @@
  net-im/telegram-purple                       | 1.4.7-r1                                  |        | https://github.com/majn/telegram-purple                                                 | Libpurple (Pidgin) plugin for using a Telegram account
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/tencent-qq                            | 3.0.0_beta1_p565                          |        | https://im.qq.com/linuxqq/download.html                                                 | The new version of the official linux-qq
+ net-im/tencent-qq                            | 3.0.0_beta1_p571                          |        | https://im.qq.com/linuxqq/download.html                                                 | The new version of the official linux-qq
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/weixin-uos                            | 2.1.5                                     |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -355,6 +355,8 @@
  net-misc/prips                               | 1.0.0                                     |        | http://devel.ringlet.net/sysutils/prips/                                                | print the IP addresses in a range
                                               | 1.2.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/rustdesk-bin                        | 1.1.9                                     |        | https://rustdesk.com/                                                                   | Open source virtual / remote desktop infrastructure for everyone
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/you-get                             | 9999                                      |        | http://www.soimort.org/you-get                                                          | A video downloader for YouTube, Youku, niconico and a few other sites
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/youtube-dl                          | 2021.06.06                                |        | https://youtube-dl.org/                                                                 | Download videos from YouTube.com (and more sites...)
@@ -375,8 +377,8 @@
    media-gfx/sane-backends                    | 9999                                      |  D, RD | http://www.sane-project.org/                                                            | Scanner Access Now Easy - Backends
    media-libs/libjpeg8                        | 2.1.4                                     |  D, RD | https://libjpeg-turbo.org/                                                              | MMX, SSE, and SSE2 SIMD accelerated JPEG library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.20.10                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
-                                              | 0.20.11                                   |        |                                                                                         |
+ net-proxy/clash-for-windows-bin              | 0.20.11                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                              | 0.20.12                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-verge-bin                    | 1.2.0                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
                                               | 1.2.1                                     |        |                                                                                         |
@@ -458,10 +460,10 @@
                                               | 6.0.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 6.1.1-r1                                  | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 6.1.2                                     |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 6.1.2                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.1.3                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.75                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                              | 6.0.7                                     |        |                                                                                         |
+                                              | 6.1.2                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
    sys-kernel/xanmod-sources                  | 5.15.75                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
                                               | 6.0.7                                     |        |                                                                                         |
@@ -487,9 +489,6 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-misc/i3lock-fancy                        | 9999                                      |        | https://github.com/meskarune/i3lock-fancy                                               | A fancy i3lock
    x11-misc/i3lock-color                      | 9999                                      |  D, RD | https://github.com/chrjguill/i3lock-color                                               | An improved i3lock
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-misc/lightdm-slick-greeter               | 1.4.1                                     |        | https://github.com/linuxmint/slick-greeter                                              | LightDM greeter forked from Unity by Linux Mint team
-                                              | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-misc/ly                                  | 0.5.3                                     |        | https://github.com/nullgemm/ly                                                          | Ly - a TUI display manager
                                               | 9999                                      |        |                                                                                         |
