@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-01-06 23:09:20 CST)
+(The last generation time: 2023-01-07 19:10:05 CST)
 
 ### Packages
 
@@ -315,6 +315,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/deepin-wine-wechat                    | 3.4.5.45                                  |        | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
    app-emulation/deepin-wine6-stable          | 6.0.0.19-r1                               |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
+     app-emulation/deepin-udis86              | 1.72-r4                                   | RD     | https://www.deepin.org                                                                  | Deepin Version of Wine
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/dingtalk                              | 1.4.0.20909                               |        | https://gov.dingtalk.com                                                                | Communication platform that supports video and audio conferencing
                                               | 1.4.0.20909-r1                            |        |                                                                                         |
