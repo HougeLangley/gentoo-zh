@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-01-18 21:19:14 CST)
+(The last generation time: 2023-01-22 15:08:15 CST)
 
 ### Packages
 
@@ -164,9 +164,10 @@
                                               | 1.6.0                                     |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/conda                             | 22.9.0                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
-   dev-python/conda-package-handling          | 1.9.0                                     |  D, RD | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
-   dev-python/pycosat                         | 0.6.3                                     |  D, RD | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
+ dev-python/conda                             | 23.1.0                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
+   dev-python/conda-package-handling          | 2.0.2                                     |  D, RD | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
+   dev-python/conda-package-streaming         | 0.7.0                                     |  D, RD | https://github.com/conda/conda-package-streaming                                        | An efficient library to read from new and old conda packages
+   dev-python/pycosat                         | 0.6.4                                     |  D, RD | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/daff                              | 1.3.46                                    |        | https://github.com/paulfitz/daff                                                        | The daff can produce and apply tabular diffs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -288,6 +289,8 @@
                                               | 0.5.11                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ media-sound/qqmusic                          | 1.1.5                                     |        | https://y.qq.com/                                                                       | Tencent QQ Music, converted from .deb package
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                         | 0.7.6                                     |        | https://github.com/tramhao/termusic                                                     | Terminal Music Player written in Rust.
                                               | 0.7.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -370,6 +373,7 @@
    net-p2p/amule-dlp                          | 9999                                      | RD     | https://github.com/persmule/amule-dlp                                                   | aMule with DLP patch, the all-platform eMule p2p client
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-p2p/n2n                                  | 3.0                                       |        | http://www.ntop.org/n2n/                                                                | A Layer Two Peer-to-Peer VPN
+                                              | 3.1.1                                     |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
    acct-group/n2n                             | 0                                         |  D, RD |                                                                                         | A Layer Two Peer-to-Peer VPN
    acct-user/n2n                              | 0                                         |  D, RD |                                                                                         | A Layer Two Peer-to-Peer VPN
@@ -425,7 +429,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA - 高效的国产PCB设计工具
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                    | 1.9.23                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA(专业版) - 高效的国产PCB设计工具
+ sci-electronics/lceda-pro                    | 1.9.29                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA(专业版) - 高效的国产PCB设计工具
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-libs/libticalcs2                         | 9999                                      |        | http://lpg.ticalc.org/prj_tilp/                                                         | Library for communication with TI calculators
    sci-libs/libtifiles2                       | 9999                                      |  D, RD | http://lpg.ticalc.org/prj_tilp/                                                         | Library for TI calculator files
@@ -449,7 +453,7 @@
        app-arch/zchunk                        | 1.2.3                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-boot/ventoy-bin                          | 1.0.87                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
+ sys-boot/ventoy-bin                          | 1.0.88-r2                                 |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                  | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -472,8 +476,8 @@
                                               | 6.1.2                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 6.1.5                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 6.1.6                                     |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 6.1.6                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.1.7                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.75                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 6.1.2                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
