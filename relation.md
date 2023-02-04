@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-01-30 20:59:28 CST)
+(The last generation time: 2023-02-05 00:15:10 CST)
 
 ### Packages
 
@@ -296,8 +296,8 @@
  media-sound/termusic                         | 0.7.6                                     |        | https://github.com/tramhao/termusic                                                     | Terminal Music Player written in Rust.
                                               | 0.7.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/yesplaymusic-bin                 | 0.4.5                                     |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
-                                              | 0.4.6                                     |        |                                                                                         |
+ media-sound/yesplaymusic-bin                 | 0.4.6                                     |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
+                                              | 0.4.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/youtube-music-bin                | 1.18.0                                    |        | https://th-ch.github.io/youtube-music/                                                  | YouTube Music Desktop App bundled with custom plugins
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -324,7 +324,7 @@
    app-emulation/deepin-wine-helper           | 5.1.27-r1                                 |  D, RD | https://www.deepin.org                                                                  | Deepin Wine Helper
      app-emulation/deepin-wine-plugin         | 5.1.13-r1                                 |  D, RD | https://www.deepin.org                                                                  | Deepin Wine plugin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/deepin-wine-wechat                    | 3.4.5.45                                  |        | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
+ net-im/deepin-wine-wechat                    | 3.8.1.26                                  |        | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
    app-emulation/deepin-wine6-stable          | 6.0.0.19-r1                               |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
      app-emulation/deepin-udis86              | 1.72-r4                                   | RD     | https://www.deepin.org                                                                  | Deepin Version of Wine
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -345,7 +345,9 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-libs/jzmq                                | 9999                                      |        | http://www.zeromq.org/bindings:java                                                     | jzmq
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/avsocks                             | 9999                                      |        | https://github.com/avplayer/avsocks                                                     | jzmq
+ net-misc/apifox                              | 2.2.19                                    |        | https://www.apifox.cn/                                                                  | API 文档、API 调试、API Mock、API 自动化测试
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/avsocks                             | 9999                                      |        | https://github.com/avplayer/avsocks                                                     | API 文档、API 调试、API Mock、API 自动化测试
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/baidunetdisk                        | 4.14.5                                    |        | https://pan.baidu.com/                                                                  | Baidu Net Disk is a cloud storage client (Linux Version)
                                               | 4.3.0                                     |        |                                                                                         |
@@ -438,9 +440,9 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/jlc-assistant-bin            | 5.0.69                                    |        | https://www.jlc.com/portal/appDownloadsWithConfig.html                                  | JLC Order Assistant (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA - 高效的国产PCB设计工具
+ sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                    | 1.9.29                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA(专业版) - 高效的国产PCB设计工具
+ sci-electronics/lceda-pro                    | 1.9.29                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-libs/libticalcs2                         | 9999                                      |        | http://lpg.ticalc.org/prj_tilp/                                                         | Library for communication with TI calculators
    sci-libs/libtifiles2                       | 9999                                      |  D, RD | http://lpg.ticalc.org/prj_tilp/                                                         | Library for TI calculator files
@@ -484,16 +486,16 @@
  sys-libs/elog-functions                      | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log eclass functions of OpenRC
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.89                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
-                                              | 6.1.7                                     |        |                                                                                         |
+                                              | 6.1.9                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 6.1.7                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 6.1.8                                     |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 6.1.8                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.1.9                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.89                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                              | 6.1.7                                     |        |                                                                                         |
+                                              | 6.1.9                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
    sys-kernel/xanmod-sources                  | 5.15.89                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                              | 6.1.8                                     |        |                                                                                         |
+                                              | 6.1.9                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/openvscode-server-bin               | 1.71.2                                    |        | https://github.com/gitpod-io/openvscode-server                                          | VS Code that runs a server on remote and allows access through a web browser
                                               | 1.72.2                                    |        |                                                                                         |
