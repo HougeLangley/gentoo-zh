@@ -7,6 +7,8 @@ on:
     paths-ignore:
       - '.github/**'
       - 'metadata/**'
+      - 'README.md'
+      - '.gitignore'
     types: [opened, reopened, synchronize]
 
 permissions:
@@ -24,8 +26,10 @@ jobs:
       image: ghcr.io/liangyongxiang/gentoo-testing:master
 
     steps:
+      - name: Sync main tree
+        run: emerge --sync gentoo
       - name: Checkout the head ref of the pull request
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           repository: ${{ github.event.pull_request.head.repo.full_name }}
@@ -194,12 +198,12 @@ jobs:
           done
       - name: Post result
         if: ${{ always() && steps.report.outputs.has }}
-        uses: actions/github-script@v4
+        uses: actions/github-script@v7
         with:
           script: |
             const fs = require("fs").promises;
             var cbody = await fs.readFile("/var/tmp/report.md", "utf8");
-            github.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -207,7 +211,7 @@ jobs:
             })
       - name: Upload big result
         if: ${{ always() && steps.report.outputs.commit }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: pkgcheck-report-${{ steps.report.outputs.commit }}
           path: /var/tmp/report.txt
