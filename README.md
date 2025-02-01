@@ -1,3 +1,10 @@
+# How to add this overlay to your Gentoo system
+
+```
+eselect repository enable gentoo-zh
+emerge --sync
+```
+
 # rule no.1
 
 DO NOT BREAK PEOPLE'S SYSTEM
@@ -51,8 +58,27 @@ https://github.com/microcai/gentoo-zh/blob/deps-table/relation.md
   to install the font, I could grant an exception for the must-tested-in-every-ARCH
   rule. You could use something like
 
-  `KEYWORDS="alpha amd64 arm hppa ia64 ppc mips ~s390 ~sh sparc x86 ~x86-fbsd"`
+  `KEYWORDS="alpha amd64 arm hppa ppc mips ~s390 ~sh sparc x86 ~x86-fbsd"`
 
   But please don't abuse this exception. It must be a pure font package.
 
-  # See wiki for some package not working
+# Distfiles mirror
+
+We provide a distfiles mirror that caches the distfiles in gentoo-zh.
+
+Our server, hosted on Finland:
+```
+GENTOO_MIRRORS="${GENTOO_MIRRORS} https://distfiles.gentoocn.org"
+```
+
+Chongqing University mirror:
+```
+GENTOO_MIRRORS="${GENTOO_MIRRORS} https://mirrors.cqu.edu.cn/gentoo-zh"
+```
+
+Nanjing University mirror:
+```
+GENTOO_MIRRORS="${GENTOO_MIRRORS} https://mirrors.nju.edu.cn/gentoo-zh"
+```
+
+# See wiki for some package not working

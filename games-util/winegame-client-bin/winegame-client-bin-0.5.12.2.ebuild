@@ -17,8 +17,6 @@ KEYWORDS="~amd64"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-RESTRICT="mirror"
-
 DEPEND="app-arch/cabextract"
 
 RDEPEND="
@@ -31,7 +29,7 @@ RDEPEND="
 		dev-python/dbus-python[${PYTHON_USEDEP}]
 		dev-python/pillow[${PYTHON_USEDEP}]
 		dev-python/pygobject:3[${PYTHON_USEDEP}]
-		dev-python/python-evdev[${PYTHON_USEDEP}]
+		dev-python/evdev[${PYTHON_USEDEP}]
 		dev-python/python-magic[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
 		dev-python/requests[${PYTHON_USEDEP}]

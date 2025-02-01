@@ -1,4 +1,4 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 2023-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,7 +11,6 @@ EGIT_REPO_URI="https://github.com/daeuniverse/daed.git"
 
 LICENSE="MIT AGPL-3"
 SLOT="0"
-RESTRICT="strip"
 
 DEPEND="
 	app-alternatives/v2ray-geoip
@@ -20,10 +19,11 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND="
 	webui? ( sys-apps/pnpm )
-	sys-devel/clang
+	llvm-core/clang
 "
 
 IUSE="+webui"
+RESTRICT="strip"
 
 src_unpack(){
 	git-r3_src_unpack

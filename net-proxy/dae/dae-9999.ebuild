@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-inherit flag-o-matic linux-info git-r3 go-module systemd
+inherit flag-o-matic linux-info git-r3 go-module systemd shell-completion
 
 DESCRIPTION="A lightweight and high-performance transparent proxy solution based on eBPF"
 HOMEPAGE="https://github.com/daeuniverse/dae"
@@ -19,7 +19,7 @@ DEPEND="
 	app-alternatives/v2ray-geosite
 "
 RDEPEND="$DEPEND"
-BDEPEND="sys-devel/clang"
+BDEPEND="llvm-core/clang"
 
 pkg_pretend() {
 	local CONFIG_CHECK="~DEBUG_INFO_BTF ~NET_CLS_ACT ~NET_SCH_INGRESS ~NET_INGRESS ~NET_EGRESS"
@@ -51,15 +51,24 @@ src_compile() {
 	filter-flags "-march=*" "-mtune=*"
 	append-cflags "-fno-stack-protector"
 
-	emake VERSION="${PV}" GOFLAGS="-buildvcs=false"
+	local GIT_VER=$(git describe --tags --long | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-\([^-]*\)-\([^-]*\)$/.\1.\2/;s/-//')
+	emake VERSION="${GIT_VER}" GOFLAGS="-buildvcs=false"
 }
 
 src_install() {
 	dobin dae
+
 	systemd_dounit install/dae.service
-	insinto /etc/dae
+	newinitd "${FILESDIR}"/dae.initd dae
+
+	keepdir /etc/dae/
+	insinto /usr/share/dae
 	newins example.dae config.dae.example
-	newins install/empty.dae config.dae
+
+	newbashcomp install/shell-completion/dae.bash dae
+	newfishcomp install/shell-completion/dae.fish dae.fish
+	newzshcomp install/shell-completion/dae.zsh _dae
+
 	dosym -r "/usr/share/v2ray/geosite.dat" /usr/share/dae/geosite.dat
 	dosym -r "/usr/share/v2ray/geoip.dat" /usr/share/dae/geoip.dat
 }
